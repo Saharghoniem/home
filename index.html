@@ -1,0 +1,67 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>my home saving</title>
+</head>
+<body>
+  <div>
+    <img src="/home.jpg" id="home"/>
+
+
+</div>
+
+    <div class="inputs">
+      <input placeholder="day" type="text"  id="day">
+      <div class="supermarket">
+      <input onkeyup="getTotal()" type="number" placeholder="supermarket" id= "supermarket">
+      <input onkeyup="getTotal()" type="number" placeholder="electricty" id="electricty">
+      <input onkeyup="getTotal()" type="number" placeholder="gas" id="gas">
+      <input onkeyup="getTotal()" type="number" placeholder="school" id="school">
+      <input onkeyup="getTotal()" type="number" placeholder="entertainment" id="entertainment">
+      <input onkeyup="getTotal()" type="number" placeholder="saving" id="saving">
+      <input onkeyup="getTotal()" type="number" placeholder="medical" id="medical">
+      <input onkeyup="getTotal()" type="number" placeholder="servent(clean)" id="servent">
+          <small id="total"></small>
+    </div>
+    <div>
+     <button id="submit">create</button> 
+    </div>
+  </div>
+       <div>
+      <table>
+        <tr>
+          <th>id</th>
+
+          <th>Day</th>
+          <th>supermarket</th>
+          <th>electacity</th>
+          <th>gas</th>
+          <th>School</th>
+          <th>entertainment</th>
+          <th>saving</th>
+          <th>medical</th>
+          <th>servent</th>
+          <th>total</th>
+          <th>update</th>
+          <th>delete</th>
+          
+          
+        </tr>
+        <tbody id="tbody">
+          
+        </tbody>
+      </table>
+    </div> 
+</div>
+   
+    
+
+  <script src="main.js"></script>
+</body>
+</html>
